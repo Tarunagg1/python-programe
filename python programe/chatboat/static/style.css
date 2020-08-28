@@ -1,0 +1,59 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(255,255,255),rgb(109,39,239));
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+h1{
+    margin-top: 12px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 900px;
+    border: 2px solid black;
+    padding: 33px;
+    overflow-y: auto;
+    margin: auto;
+    height: 60vh;
+}
+.message{
+   background-color: gray;
+   width: 24%;
+   padding: 10px;
+   margin: 17px 12px;
+   border: 2px solid black;
+   border-radius: 10px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+   float: right;
+   clear: both;
+}
+#sendcontainer{
+   text-align: center;
+   display: block;
+   width: 100%;
+   max-width: 1085%;
+   margin: auto;
+}
+#messgaeimp {
+    width: 65%;
+    border: 2px solid black;
+    height: 34px;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}

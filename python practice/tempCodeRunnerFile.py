@@ -1,0 +1,1 @@
+cam.frontcamera("mp32");            
